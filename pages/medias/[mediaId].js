@@ -8,10 +8,10 @@ export default function Media({ mediaId, title }) {
             <Head>
                 <title>{title} - Mosegook</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-                <meta name="keywords" content="mosegook, filmes, livros, jogos, series, filme, livro, jogo, serie" />
-                <meta property="og:url" content="https://www.mosegook.com.br" />
+                <meta name="keywords" content="compras, shop, aleatshop" />
+                <meta property="og:url" content="https://www.aleatshop.com.br" />
                 <meta name="description" content={`Saiba mais sobre ${title}`} />
-                <meta name="og:title" content={`${title} - Mosegook`} />
+                <meta name="og:title" content={`${title} - AleatShop`} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
