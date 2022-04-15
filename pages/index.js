@@ -13,6 +13,9 @@ export default function Home() {
         <meta property="og:url" content="https://www.mosegook.com.br" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Mosegook</h1>
+      </main>
     </div>
   )
 }
